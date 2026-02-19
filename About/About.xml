@@ -1,16 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-    <name>Cheat Beds</name>
-    <packageId>ViPok.CheatBeds</packageId>
-	<url>https://github.com/ViPok137/Cheat-Beds.git</url>
+    <name>Overpowered Toys</name>
+    <packageId>ViPok.OverpoweredToys</packageId>
+	<url>steam://url/CommunityFilePage/3578460018</url>
     <supportedVersions>
         <li>1.6</li>
     </supportedVersions>
-    <modVersion>1.2</modVersion>
+    <modVersion>2.0.2</modVersion>
     <authors>
-        <li>Vi_Pok</li>
+        <li>Vi Pok</li>
     </authors>
     <description>
-		This mod introduces advanced experimental beds that dramatically surpass normal medical and rest technology.
+Formerly known as Cheat Beds.
+
+This mod adds intentionally overpowered furniture,
+including advanced beds, animal sleeping spots,
+and a bedside table designed for testing and sandbox use.
+
+Balance is not intended.
     </description>
 </ModMetaData>

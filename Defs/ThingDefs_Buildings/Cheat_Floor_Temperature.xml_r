@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>OP_FloorHeater</defName>
+    <label>overpowered floor heater</label>
+    <description>An absurdly powerful indoor heater. Completely ignores balance.</description>
+
+    <thingClass>Building_Heater</thingClass>
+    <minifiedDef>MinifiedThing</minifiedDef>
+
+    <graphicData>
+      <texPath>VI/TempControl/Heater</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.4</fillPercent>
+
+    <thingCategories>
+      <li>BuildingsTemperature</li>
+    </thingCategories>
+
+    <statBases>
+      <WorkToBuild>50</WorkToBuild>
+      <MaxHitPoints>1000</MaxHitPoints>
+      <Mass>5</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+
+    <tickerType>Rare</tickerType>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+
+    <comps>
+
+      <li Class="CompProperties_Flickable"/>
+
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>1</basePowerConsumption>
+        <shortCircuitInRain>false</shortCircuitInRain>
+      </li>
+
+      <li Class="CompProperties_TempControl">
+        <energyPerSecond>1000</energyPerSecond>
+      </li>
+
+    </comps>
+
+    <designationCategory>Temperature</designationCategory>
+  </ThingDef>
+
+
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>OP_FloorCooler</defName>
+    <label>overpowered floor cooler</label>
+    <description>An absurdly powerful indoor cooler. Completely ignores balance.</description>
+
+    <thingClass>Building_Heater</thingClass>
+    <minifiedDef>MinifiedThing</minifiedDef>
+
+    <graphicData>
+      <texPath>VI/TempControl/Cooler</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.4</fillPercent>
+
+    <thingCategories>
+      <li>BuildingsTemperature</li>
+    </thingCategories>
+
+    <statBases>
+      <WorkToBuild>50</WorkToBuild>
+      <MaxHitPoints>1000</MaxHitPoints>
+      <Mass>5</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+
+    <tickerType>Rare</tickerType>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+
+    <comps>
+
+      <li Class="CompProperties_Flickable"/>
+
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>1</basePowerConsumption>
+        <shortCircuitInRain>false</shortCircuitInRain>
+      </li>
+
+      <li Class="CompProperties_TempControl">
+        <energyPerSecond>-1000</energyPerSecond>
+      </li>
+
+    </comps>
+
+    <designationCategory>Temperature</designationCategory>
+  </ThingDef>
+
+</Defs>

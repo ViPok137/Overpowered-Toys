@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="ShelfBase">
+    <defName>CheatShelf10k</defName>
+	<label>cheat shelf (1024 stacks)</label>
+	<description>Forget about massive warehouses taking up half the map. This shelf is your ticket to infinite space. It holds 1024 stacks in a single tile. Build it and forget it.</description>
+    
+    <thingClass>Building_Storage</thingClass>
+    <size>(2,1)</size>
+    
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>20</costStuffCount>
+
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>500</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <Beauty>2</Beauty>
+      <Mass>10</Mass> </statBases>
+
+    <graphicData>
+      <texPath>Things/Building/Furniture/Shelf</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>Cutout</shaderType>
+      <drawSize>(3,2)</drawSize>
+    </graphicData>
+
+    <inspectorTabs>
+      <li>ITab_Storage</li>
+    </inspectorTabs>
+
+    <building>
+      <maxItemsInCell>1024</maxItemsInCell>
+      <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+        <filter>
+          <categories>
+            <li>Items</li>
+          </categories>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+
+    <designationCategory>Furniture</designationCategory>
+    <researchPrerequisites>
+      <li>ComplexFurniture</li>
+    </researchPrerequisites>
+  </ThingDef>
+</Defs>

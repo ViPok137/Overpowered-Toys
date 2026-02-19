@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+  <ThingDef ParentName="AnimalBedFurnitureBase">
+    <defName>CheatBed_Animal</defName>
+    <label>cheat animal bed</label>
+    <description>An experimental animal resting unit adapted from human neuro-somatic technology. Provides instant comfort and rapid healing for biological pets and farm animals.</description>
+    
+    <thingClass>Building_Bed</thingClass>
+    
+    <tickerType>Normal</tickerType>
+
+    <graphicData>
+      <texPath>Things/Building/Misc/AnimalBed/AnimalSleepSpot</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+      <color>(0.7, 0.7, 0.9)</color>
+    </graphicData>
+    
+    <uiIconPath>Things/Building/Misc/AnimalBed/AnimalSleepSpot</uiIconPath>
+    <uiOrder>2000</uiOrder>
+
+    <statBases>
+      <MaxHitPoints>5000</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Flammability>0</Flammability>
+      <Beauty>100</Beauty>
+      <BedRestEffectiveness>10000</BedRestEffectiveness>
+      <ImmunityGainSpeedFactor>10000</ImmunityGainSpeedFactor>
+      <Mass>10</Mass>
+      <Comfort>1.0</Comfort>
+    </statBases>
+
+    <building>
+      <bed_humanlike>false</bed_humanlike>
+      <bed_maxBodySize>10.0</bed_maxBodySize>
+    </building>
+    
+    <designationCategory>Furniture</designationCategory>
+    
+    <comps>
+      <li>
+        <compClass>DivineBedMod.CompCheatBed</compClass>
+      </li>
+    </comps>
+
+    <costList>
+    </costList>
+    <costStuffCount>0</costStuffCount>
+  </ThingDef>
+
+</Defs>

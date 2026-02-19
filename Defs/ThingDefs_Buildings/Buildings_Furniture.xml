@@ -1,5 +1,4 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-
 <Defs>
 
   <ThingDef ParentName="Bed">
@@ -9,22 +8,29 @@
     <graphicData>
       <texPath>VI/Furniture/Bed</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
-      <drawSize>(1,2)</drawSize>
+      <drawSize>(1.5,2.5)</drawSize>
     </graphicData>
     <uiIconPath>VI/Furniture/Bed</uiIconPath>
-	<tickerType>Normal</tickerType>
+    <tickerType>Normal</tickerType>
     <size>(1,2)</size>
     <passability>PassThroughOnly</passability>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    
     <statBases>
       <MaxHitPoints>5000</MaxHitPoints>
       <WorkToBuild>100</WorkToBuild>
       <Flammability>0</Flammability>
       <Beauty>100</Beauty>
+      <Mass>50</Mass>
+      <Comfort>100</Comfort>
       <BedRestEffectiveness>10000</BedRestEffectiveness>
       <ImmunityGainSpeedFactor>10000</ImmunityGainSpeedFactor>
-      <Mass>50</Mass>
+      <SurgerySuccessChanceFactor>200</SurgerySuccessChanceFactor>
     </statBases>
+
+    <placeWorkers Inherit="False">
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
 
     <building>
       <bed_humanlike>true</bed_humanlike>
@@ -32,12 +38,12 @@
     </building>
     <designationCategory>Furniture</designationCategory>
     <costStuffCount>0</costStuffCount>
-	<comps>
-	  <li>
-		<compClass>DivineBedMod.CompCheatBed</compClass>
-	  </li>
-	</comps>
-</ThingDef>
+    <comps>
+      <li>
+        <compClass>DivineBedMod.CompCheatBed</compClass>
+      </li>
+    </comps>
+  </ThingDef>
 
   <ThingDef ParentName="DoubleBed">
     <defName>CheatBed_Double</defName>
@@ -46,22 +52,29 @@
     <graphicData>
       <texPath>VI/Furniture/DoubleBed</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
-      <drawSize>(2,2)</drawSize>
+      <drawSize>(2.5,2.5)</drawSize>
     </graphicData>
-	<tickerType>Normal</tickerType>
+    <tickerType>Normal</tickerType>
     <uiIconPath>VI/Furniture/DoubleBed</uiIconPath>
     <size>(2,2)</size>
     <passability>PassThroughOnly</passability>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    
     <statBases>
       <MaxHitPoints>8000</MaxHitPoints>
       <WorkToBuild>100</WorkToBuild>
       <Flammability>0</Flammability>
       <Beauty>200</Beauty>
+      <Mass>100</Mass>
+      <Comfort>100</Comfort>
       <BedRestEffectiveness>10000</BedRestEffectiveness>
       <ImmunityGainSpeedFactor>10000</ImmunityGainSpeedFactor>
-      <Mass>100</Mass>
+      <SurgerySuccessChanceFactor>200</SurgerySuccessChanceFactor>
     </statBases>
+
+    <placeWorkers Inherit="False">
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
     
     <building>
       <bed_humanlike>true</bed_humanlike>
@@ -70,11 +83,11 @@
     <designationCategory>Furniture</designationCategory>
     <costStuffCount>0</costStuffCount>
 
-	<comps>
-	  <li>
-		<compClass>DivineBedMod.CompCheatBed</compClass>
-	  </li>
-	</comps>
+    <comps>
+      <li>
+        <compClass>DivineBedMod.CompCheatBed</compClass>
+      </li>
+    </comps>
   </ThingDef>
 
 </Defs>
