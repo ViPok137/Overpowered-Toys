@@ -1,0 +1,52 @@
+name: Bug Report
+description: Report a bug in Overpowered Toys
+title: "[BUG] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug!
+        Please fill out all required fields.
+
+  - type: input
+    id: mod_version
+    attributes:
+      label: Mod Version
+      description: What version of the mod are you using?
+      placeholder: e.g. v2.1.2
+    validations:
+      required: true
+
+  - type: input
+    id: rimworld_version
+    attributes:
+      label: RimWorld Version
+      description: What version of RimWorld are you using?
+      placeholder: e.g. 1.5
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug Description
+      description: Describe what happened.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: How can this bug be reproduced?
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: Paste Player.log or error messages here.
+    validations:
+      required: false
