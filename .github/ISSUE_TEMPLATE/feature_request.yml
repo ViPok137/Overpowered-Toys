@@ -1,0 +1,56 @@
+name: Feature Request
+description: Suggest a new feature or improvement for Overpowered Toys
+title: "[FEATURE] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for suggesting an idea!
+        Please complete all required fields before submitting.
+
+  - type: input
+    id: mod_version
+    attributes:
+      label: Mod Version
+      description: What version of the mod are you using?
+      placeholder: e.g. v2.1.2
+    validations:
+      required: true
+
+  - type: textarea
+    id: feature_description
+    attributes:
+      label: Feature Description
+      description: Clearly describe the feature you would like to see added.
+      placeholder: What should be added or changed?
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem It Solves
+      description: What problem does this feature solve?
+      placeholder: Why is this feature needed?
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Have you considered any alternative solutions?
+      placeholder: Other ways this could be implemented.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: agreement
+    attributes:
+      label: Agreement
+      options:
+        - label: I understand that this is a cheat mod and balance is not intended.
+          required: true
+        - label: I understand that not all feature requests will be accepted.
+          required: true
