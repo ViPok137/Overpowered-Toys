@@ -56,3 +56,8 @@ If you like the mod and want to support development:
 [![Ko-fi](https://i.imgur.com/GibXwNP.png)](https://ko-fi.com/C0C11T5JIB)
 
 [![Buy Me a Coffee](https://i.imgur.com/4z4GAVH.png)](https://www.buymeacoffee.com/vipok)
+
+
+## License
+This project is licensed under the GNU GPL v3.0.
+See the LICENSE file for details.
