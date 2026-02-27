@@ -2,6 +2,15 @@
 <LanguageData>
 
     <CheatBed_Animal.label>作弊动物床</CheatBed_Animal.label>
-    <CheatBed_Animal.description>一种由人类神经体技术改造而来的实验性动物休息装置。可为生物宠物和农场动物提供即时舒适感并大幅加快愈合速度。</CheatBed_Animal.description>
+    <CheatBed_Animal.description>强化型动物恢复垫。
+提供极高的休息效率，并加快宠物与牲畜的健康恢复速度。即使是动物，也值得拥有超强科技。</CheatBed_Animal.description>
+
+	<CheatBed_AnimalBox.label>作弊动物睡眠箱</CheatBed_AnimalBox.label>
+	<CheatBed_AnimalBox.description>封闭式的超强化动物睡眠箱。
+在受保护的结构内提供极高的休息效率和加速治疗效果。</CheatBed_AnimalBox.description>
+
+	<CheatBed_AnimalLounger.label>作弊动物躺椅</CheatBed_AnimalLounger.label>
+	<CheatBed_AnimalLounger.description>超柔软的超强化动物躺椅。
+提供夸张的休息速度和快速免疫增长。</CheatBed_AnimalLounger.description>
 
 </LanguageData>

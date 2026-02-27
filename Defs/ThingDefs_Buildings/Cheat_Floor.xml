@@ -4,18 +4,17 @@
   <TerrainDef ParentName="FloorBase">
     <defName>OP_BrokenRealityFloor</defName>
     <label>broken reality floor</label>
-    <description>A floor that ignores physics, economy and common sense.</description>
-
+    <description>A floor tile that bends the laws of physics. Pawns moving across this surface experience a dramatic ×10 movement speed multiplier. Extremely clean, visually stable, and completely unbalanced. Use responsibly. Or don’t.</description>
     <texturePath>Weather/Overlays/FlashstormPsychic</texturePath>
 
     <statBases>
-      <WorkToBuild>0</WorkToBuild>
+      <WorkToBuild>5</WorkToBuild>
       <Beauty>1000</Beauty>
       <Cleanliness>100</Cleanliness>
       <Flammability>0</Flammability>
     </statBases>
 
-    <pathCost>-10</pathCost>
+    <pathCost>0</pathCost>
 
     <filthAcceptanceMask>None</filthAcceptanceMask>
 

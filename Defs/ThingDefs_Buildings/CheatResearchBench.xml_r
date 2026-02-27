@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>OP_CheatResearchBench</defName>
+    <label>cheat research bench</label>
+    <description>Experimental ultra-fast research station for testing purposes.</description>
+
+    <thingClass>Building_ResearchBench</thingClass>
+
+    <graphicData>
+      <texPath>Things/Building/Production/ResearchBenchHiTech</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3,2)</drawSize>
+    </graphicData>
+
+    <uiIconPath>Things/Building/Production/ResearchBenchHiTech_south</uiIconPath>
+
+    <size>(2,1)</size>
+    <altitudeLayer>Building</altitudeLayer>
+
+    <!-- Можно проходить, но это не стена -->
+    <passability>PassThroughOnly</passability>
+
+    <!-- Рабочая клетка перед столом -->
+    <hasInteractionCell>true</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+
+    <statBases>
+      <MaxHitPoints>800</MaxHitPoints>
+      <WorkToBuild>200</WorkToBuild>
+      <Beauty>6</Beauty>
+      <ResearchSpeedFactor>1000</ResearchSpeedFactor>
+      <Flammability>0.5</Flammability>
+    </statBases>
+
+    <!-- Бесплатно -->
+    <costList />
+
+    <designationCategory>Production</designationCategory>
+
+  </ThingDef>
+
+</Defs>

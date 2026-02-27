@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <OP_BrokenRealityFloor.label>broken reality floor</OP_BrokenRealityFloor.label>
+    <OP_BrokenRealityFloor.description>
+A floor tile that bends the laws of physics. Pawns moving across this surface experience a dramatic ×10 movement speed multiplier. Extremely clean, visually stable, and completely unbalanced. Use responsibly. Or don’t.
+</OP_BrokenRealityFloor.description>
+</Defs>

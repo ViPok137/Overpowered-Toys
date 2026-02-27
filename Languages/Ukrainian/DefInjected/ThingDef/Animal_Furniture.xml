@@ -2,6 +2,16 @@
 <LanguageData>
 
     <CheatBed_Animal.label>читерське ліжко для тварин</CheatBed_Animal.label>
-    <CheatBed_Animal.description>Експериментальний пристрій для відпочинку тварин, адаптований з нейросоматичних технологій для людей. Забезпечує миттєвий комфорт і прискорене загоєння біологічних улюбленців та сільськогосподарських тварин.</CheatBed_Animal.description>
+    <CheatBed_Animal.description>Посилена відновлювальна підстилка для тварин. Забезпечує надзвичайну ефективність відпочинку та прискорене відновлення здоров'я домашніх улюбленців і худоби. Навіть тварини заслуговують на надпотужні технології.</CheatBed_Animal.description>
+
+
+	<CheatBed_AnimalBox.label>читерський спальник-бокс для тварин</CheatBed_AnimalBox.label>
+	<CheatBed_AnimalBox.description>Закритий надмірно покращений спальник-бокс для тварин.
+Забезпечує екстремальну ефективність відпочинку та прискорене лікування в захищеній конструкції.</CheatBed_AnimalBox.description>
+
+	<CheatBed_AnimalLounger.label>читерський лежак для тварин</CheatBed_AnimalLounger.label>
+	<CheatBed_AnimalLounger.description>Ультрам’який надпотужний лежак для тварин.
+Надає абсурдну швидкість відпочинку та швидке зростання імунітету.</CheatBed_AnimalLounger.description>
 
 </LanguageData>
+

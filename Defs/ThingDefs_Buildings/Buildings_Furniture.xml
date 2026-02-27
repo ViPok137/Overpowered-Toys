@@ -4,90 +4,57 @@
   <ThingDef ParentName="Bed">
     <defName>CheatBed_Single</defName>
     <label>cheat bed</label>
-    <description>An experimental single-occupant rest platform integrating neuromechanical feedback and adaptive bioscanning. The system induces rapid sleep onset via gentle oscillation and synchronized neural signals. During treatment, it performs full-spectrum analysis of the patient and transmits a precise anatomical projection into the surgeon’s visual cortex, reducing error margin to near zero.</description>
+    <description>A heavily modified sleep platform engineered for absolute biological optimization.</description>
     <graphicData>
       <texPath>VI/Furniture/Bed</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
       <drawSize>(1.5,2.5)</drawSize>
     </graphicData>
     <uiIconPath>VI/Furniture/Bed</uiIconPath>
-    <tickerType>Normal</tickerType>
+    <tickerType>Rare</tickerType>
     <size>(1,2)</size>
-    <passability>PassThroughOnly</passability>
-    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
-    
     <statBases>
       <MaxHitPoints>5000</MaxHitPoints>
       <WorkToBuild>100</WorkToBuild>
       <Flammability>0</Flammability>
       <Beauty>100</Beauty>
-      <Mass>50</Mass>
       <Comfort>100</Comfort>
-      <BedRestEffectiveness>10000</BedRestEffectiveness>
-      <ImmunityGainSpeedFactor>10000</ImmunityGainSpeedFactor>
-      <SurgerySuccessChanceFactor>200</SurgerySuccessChanceFactor>
+      <BedRestEffectiveness>100</BedRestEffectiveness>
+      <ImmunityGainSpeedFactor>100</ImmunityGainSpeedFactor>
+      <SurgerySuccessChanceFactor>2.0</SurgerySuccessChanceFactor>
     </statBases>
-
-    <placeWorkers Inherit="False">
-      <li>PlaceWorker_ShowFacilitiesConnections</li>
-    </placeWorkers>
-
-    <building>
-      <bed_humanlike>true</bed_humanlike>
-      <bed_maxBodySize>2</bed_maxBodySize>
-    </building>
-    <designationCategory>Furniture</designationCategory>
-    <costStuffCount>0</costStuffCount>
     <comps>
-      <li>
-        <compClass>DivineBedMod.CompCheatBed</compClass>
-      </li>
+      <li Class="DivineBedMod.CompProperties_CheatBed" />
     </comps>
+    <designationCategory>Furniture</designationCategory>
   </ThingDef>
 
   <ThingDef ParentName="DoubleBed">
     <defName>CheatBed_Double</defName>
     <label>double cheat bed</label>
-    <description>A dual-occupant neuro-somatic recovery unit. Incorporates synchronized rocking mechanisms, cortical resonance induction, and deep bioscanning arrays. When used in medical procedures, the bed overlays a full diagnostic reconstruction into the surgeon’s visual cortex, allowing for unprecedented surgical precision. Supports simultaneous treatment of two patients under identical conditions.</description>
+    <description>A dual-occupancy version of the overpowered biological recovery platform.</description>
     <graphicData>
       <texPath>VI/Furniture/DoubleBed</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
       <drawSize>(2.5,2.5)</drawSize>
     </graphicData>
-    <tickerType>Normal</tickerType>
+    <tickerType>Rare</tickerType>
     <uiIconPath>VI/Furniture/DoubleBed</uiIconPath>
     <size>(2,2)</size>
-    <passability>PassThroughOnly</passability>
-    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
-    
     <statBases>
       <MaxHitPoints>8000</MaxHitPoints>
       <WorkToBuild>100</WorkToBuild>
       <Flammability>0</Flammability>
       <Beauty>200</Beauty>
-      <Mass>100</Mass>
       <Comfort>100</Comfort>
-      <BedRestEffectiveness>10000</BedRestEffectiveness>
-      <ImmunityGainSpeedFactor>10000</ImmunityGainSpeedFactor>
-      <SurgerySuccessChanceFactor>200</SurgerySuccessChanceFactor>
+      <BedRestEffectiveness>100</BedRestEffectiveness>
+      <ImmunityGainSpeedFactor>100</ImmunityGainSpeedFactor>
+      <SurgerySuccessChanceFactor>2.0</SurgerySuccessChanceFactor>
     </statBases>
-
-    <placeWorkers Inherit="False">
-      <li>PlaceWorker_ShowFacilitiesConnections</li>
-    </placeWorkers>
-    
-    <building>
-      <bed_humanlike>true</bed_humanlike>
-      <bed_maxBodySize>2</bed_maxBodySize>
-    </building>
-    <designationCategory>Furniture</designationCategory>
-    <costStuffCount>0</costStuffCount>
-
     <comps>
-      <li>
-        <compClass>DivineBedMod.CompCheatBed</compClass>
-      </li>
+      <li Class="DivineBedMod.CompProperties_CheatBed" />
     </comps>
+    <designationCategory>Furniture</designationCategory>
   </ThingDef>
 
 </Defs>

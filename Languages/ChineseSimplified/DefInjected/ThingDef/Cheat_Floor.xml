@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <OP_BrokenRealityFloor.label>broken reality floor</OP_BrokenRealityFloor.label>
+    <OP_BrokenRealityFloor.description>
+一种扭曲物理法则的地板。在其上移动的殖民者将获得 ×10 移动速度加成。极度洁净。完全不平衡。
+</OP_BrokenRealityFloor.description>
+</Defs>

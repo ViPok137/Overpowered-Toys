@@ -3,8 +3,13 @@
   <ThingDef ParentName="ShelfBase">
     <defName>CheatShelf10k</defName>
 	<label>cheat shelf (1024 stacks)</label>
-	<description>Forget about massive warehouses taking up half the map. This shelf is your ticket to infinite space. It holds 1024 stacks in a single tile. Build it and forget it.</description>
-    
+	<description>
+A compact storage unit utilizing questionable spatial compression technology.
+
+Holds an absurd number of item stacks within a single tile, dramatically reducing storage footprint.
+
+Warehouse? Never heard of it.
+</description>
     <thingClass>Building_Storage</thingClass>
     <size>(2,1)</size>
     

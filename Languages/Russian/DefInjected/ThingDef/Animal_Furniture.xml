@@ -2,6 +2,14 @@
 <LanguageData>
 
     <CheatBed_Animal.label>читерская кровать для животных</CheatBed_Animal.label>
-    <CheatBed_Animal.description>Экспериментальное устройство для отдыха животных, адаптированное из нейросоматических технологий для людей. Обеспечивает мгновенный комфорт и ускоренное заживление биологических питомцев и сельскохозяйственных животных.</CheatBed_Animal.description>
+    <CheatBed_Animal.description>Усиленная восстановительная подстилка для животных. Обеспечивает экстремальную эффективность отдыха и ускоренное восстановление здоровья питомцев и скота. Даже животные заслуживают оверпауэр-технологий.</CheatBed_Animal.description>
+
+	<CheatBed_AnimalBox.label>читерский спальный бокс для животных</CheatBed_AnimalBox.label>
+	<CheatBed_AnimalBox.description>Закрытый чрезмерно улучшенный спальный бокс для животных.
+Обеспечивает экстремальную эффективность отдыха и ускоренное лечение в защищённой конструкции.</CheatBed_AnimalBox.description>
+
+	<CheatBed_AnimalLounger.label>читерская лежанка для животных</CheatBed_AnimalLounger.label>
+	<CheatBed_AnimalLounger.description>Ультрамягкая чрезмерно усиленная лежанка для животных.
+Даёт абсурдную скорость отдыха и быстрое развитие иммунитета.</CheatBed_AnimalLounger.description>
 
 </LanguageData>

@@ -2,7 +2,14 @@
 <LanguageData>
 
     <CheatBed_Animal.label>cheat animal bed</CheatBed_Animal.label>
-    <CheatBed_Animal.description>An experimental animal resting unit adapted from human neuro-somatic technology. Provides instant comfort and rapid healing for biological pets and farm animals.</CheatBed_Animal.description>
+    <CheatBed_Animal.description>A reinforced biological stabilization pad designed for animals. Provides extreme rest efficiency and accelerated recovery, ensuring your pets and livestock return to peak condition almost instantly. Because even animals deserve overpowered treatment.</CheatBed_Animal.description>
     
+	<CheatBed_AnimalBox.label>cheat animal sleeping box</CheatBed_AnimalBox.label>
+	<CheatBed_AnimalBox.description>An enclosed overengineered sleeping box for animals.
+Provides extreme rest efficiency and accelerated healing in a protected structure.</CheatBed_AnimalBox.description>
+
+	<CheatBed_AnimalLounger.label>cheat animal lounger</CheatBed_AnimalLounger.label>
+	<CheatBed_AnimalLounger.description>An ultra-soft overpowered animal lounger.
+Grants absurd rest speed and rapid immunity gain.</CheatBed_AnimalLounger.description>
 
 </LanguageData>

@@ -2,13 +2,20 @@
 
 <Defs>
 
+  <!-- ============================= -->
+  <!-- ORIGINAL Cheat Animal Bed -->
+  <!-- ============================= -->
+
   <ThingDef ParentName="AnimalBedFurnitureBase">
     <defName>CheatBed_Animal</defName>
     <label>cheat animal bed</label>
-    <description>An experimental animal resting unit adapted from human neuro-somatic technology. Provides instant comfort and rapid healing for biological pets and farm animals.</description>
-    
+    <description>A reinforced biological stabilization pad designed for animals.
+
+Provides extreme rest efficiency and accelerated recovery, ensuring your pets and livestock return to peak condition almost instantly.
+
+Because even animals deserve overpowered treatment.</description>
+
     <thingClass>Building_Bed</thingClass>
-    
     <tickerType>Normal</tickerType>
 
     <graphicData>
@@ -17,7 +24,7 @@
       <drawSize>(1,1)</drawSize>
       <color>(0.7, 0.7, 0.9)</color>
     </graphicData>
-    
+
     <uiIconPath>Things/Building/Misc/AnimalBed/AnimalSleepSpot</uiIconPath>
     <uiOrder>2000</uiOrder>
 
@@ -36,17 +43,114 @@
       <bed_humanlike>false</bed_humanlike>
       <bed_maxBodySize>10.0</bed_maxBodySize>
     </building>
-    
+
     <designationCategory>Furniture</designationCategory>
-    
+
     <comps>
       <li>
         <compClass>DivineBedMod.CompCheatBed</compClass>
       </li>
     </comps>
 
-    <costList>
-    </costList>
+    <costList/>
+    <costStuffCount>0</costStuffCount>
+  </ThingDef>
+
+
+  <ThingDef ParentName="AnimalBedFurnitureBase">
+    <defName>CheatBed_AnimalBox</defName>
+    <label>cheat animal sleeping box</label>
+    <description>An enclosed overengineered sleeping box for animals.
+
+Provides extreme rest efficiency and accelerated healing in a protected structure.</description>
+
+    <thingClass>Building_Bed</thingClass>
+    <tickerType>Normal</tickerType>
+
+    <graphicData>
+      <texPath>Things/Building/Misc/AnimalBed/AnimalSleepBox</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+      <color>(0.6, 0.6, 0.95)</color>
+    </graphicData>
+
+    <uiIconPath>Things/Building/Misc/AnimalBed/AnimalSleepBox</uiIconPath>
+    <uiOrder>2001</uiOrder>
+
+    <statBases>
+      <MaxHitPoints>8000</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Flammability>0</Flammability>
+      <Beauty>150</Beauty>
+      <BedRestEffectiveness>10000</BedRestEffectiveness>
+      <ImmunityGainSpeedFactor>10000</ImmunityGainSpeedFactor>
+      <Mass>15</Mass>
+      <Comfort>1.0</Comfort>
+    </statBases>
+
+    <building>
+      <bed_humanlike>false</bed_humanlike>
+      <bed_maxBodySize>10.0</bed_maxBodySize>
+    </building>
+
+    <designationCategory>Furniture</designationCategory>
+
+    <comps>
+      <li>
+        <compClass>DivineBedMod.CompCheatBed</compClass>
+      </li>
+    </comps>
+
+    <costList/>
+    <costStuffCount>0</costStuffCount>
+  </ThingDef>
+
+
+  <ThingDef ParentName="AnimalBedFurnitureBase">
+    <defName>CheatBed_AnimalLounger</defName>
+    <label>cheat animal lounger</label>
+    <description>An ultra-soft overpowered animal lounger.
+
+Grants absurd rest speed and rapid immunity gain.</description>
+
+    <thingClass>Building_Bed</thingClass>
+    <tickerType>Normal</tickerType>
+
+    <graphicData>
+      <texPath>Things/Building/Misc/AnimalBed/AnimalBed</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+      <color>(0.8, 0.6, 1.0)</color>
+    </graphicData>
+
+    <uiIconPath>Things/Building/Misc/AnimalBed/AnimalBed</uiIconPath>
+    <uiOrder>2002</uiOrder>
+
+    <statBases>
+      <MaxHitPoints>6000</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Flammability>0</Flammability>
+      <Beauty>120</Beauty>
+      <BedRestEffectiveness>10000</BedRestEffectiveness>
+      <ImmunityGainSpeedFactor>10000</ImmunityGainSpeedFactor>
+      <Mass>8</Mass>
+      <Comfort>1.0</Comfort>
+    </statBases>
+
+    <building>
+      <bed_humanlike>false</bed_humanlike>
+      <bed_maxBodySize>10.0</bed_maxBodySize>
+    </building>
+
+    <designationCategory>Furniture</designationCategory>
+
+    <comps>
+      <li>
+        <compClass>DivineBedMod.CompCheatBed</compClass>
+      </li>
+    </comps>
+
+    <costList/>
     <costStuffCount>0</costStuffCount>
   </ThingDef>
 

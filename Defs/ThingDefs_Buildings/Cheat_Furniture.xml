@@ -4,8 +4,12 @@
   <ThingDef ParentName="FurnitureBase">
     <defName>CheatEndTable</defName>
     <label>cheat end table</label>
-    <description>A highly advanced bedside table that radiates an aura of extreme beauty and luxury. Improves any room's status instantly.</description>
-    <graphicData>
+    <description>
+An outrageously beautiful bedside structure radiating excessive aesthetic value.
+
+Instantly transforms any bedroom into a luxury suite and boosts room impressiveness far beyond reasonable limits.
+</description>
+<graphicData>
       <texPath>Things/Building/Furniture/EndTable</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
       <drawSize>(1,1)</drawSize>
