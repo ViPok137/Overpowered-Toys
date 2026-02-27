@@ -1,0 +1,6 @@
+# Count XML as primary content
+*.xml linguist-detectable=true
+*.xml linguist-language=XML
+
+# Ignore compiled assemblies in language stats
+Assemblies/* linguist-detectable=false
