@@ -1,31 +1,58 @@
 # Overpowered Toys
 
-Formerly known as Cheat Beds.
+> Previously known as ~~Cheat Beds~~
 
-This mod adds intentionally overpowered furniture and infrastructure for sandbox gameplay, testing scenarios and pure colony domination.
+**Overpowered Toys** is a cheat mod for RimWorld.
 
-Included:
+This mod adds intentionally broken furniture that completely removes sleep, medical management, and comfort control from the game.
 
-- Cheat Beds (single &amp; double)
-  Ultra-advanced recovery platforms with extreme comfort, near-instant rest, massive immunity gain and drastically improved surgery success.
-  Designed to eliminate downtime completely.
+If you need balance — this mod is not for you.  
+If you want your colony to stop suffering — read on.
 
-- Cheat Animal Bed (spot, sleeping box &amp; animal lounger)
-  A biological stabilization unit for animals.
-  Grants extreme rest efficiency and accelerated recovery for pets and livestock.
+---
 
-- Cheat End Table
-  Emits an absurd level of beauty.
-  Instantly upgrades any bedroom into a royal suite.
+## What This Mod Does
 
-- Cheat Shelf (1024 stacks)
-  Compact storage solution holding 1024 stacks in a single tile.
-  Perfect for compact megabases and warehouse-free colonies.
+- Removes sleep delays  
+- Makes treatment trivial  
+- Boosts mood and room stats to absurd levels  
+- Removes micromanagement  
 
-- OP Broken Reality Floor
-  A physics-defying surface that multiplies pawn movement speed by ×10 while standing on it.
-  Extremely clean, beautiful and completely unbalanced.
+---
 
-Balance is not intended.
-Compatibility with saves is preserved.
-Built for fun, testing and overpowered experiments.
+## Cheat Furniture
+
+- **Cheat Single Bed**
+- **Cheat Double Bed**
+- **Cheat Animal Bed** (spot, sleeping box & animal lounger)
+- **Cheat End Table**
+- **Cheat Double Shelf** with extreme capacity
+- **OP Broken Reality Floor** — a floor that gives ×10 movement speed
+
+---
+
+## Usage
+
+1. Build the cheat furniture  
+2. Assign it  
+3. Forget about balance  
+
+Works for colonists, prisoners, and animals.
+
+---
+
+## Important
+
+- The mod is intentionally broken.  
+- All content is cheat-level.  
+- Balance is not intended.  
+
+---
+
+## Support the Author
+
+If you like the mod and want to support development:
+
+[![Ko-fi](https://i.imgur.com/GibXwNP.png)](https://ko-fi.com/C0C11T5JIB)
+
+[![Buy Me a Coffee](https://i.imgur.com/4z4GAVH.png)](https://www.buymeacoffee.com/vipok)
