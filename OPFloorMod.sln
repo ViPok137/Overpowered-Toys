@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36930.0 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OPFloorMod", "OPFloorMod.csproj", "{973A9086-38A4-4B4D-ABEF-91BAA7EAD088}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{973A9086-38A4-4B4D-ABEF-91BAA7EAD088}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{973A9086-38A4-4B4D-ABEF-91BAA7EAD088}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{973A9086-38A4-4B4D-ABEF-91BAA7EAD088}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{973A9086-38A4-4B4D-ABEF-91BAA7EAD088}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3F35EEBF-21A4-4884-A019-9B5B8FC66FF5}
+	EndGlobalSection
+EndGlobal
