@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>CheatMultiAnalyzer</defName>
+    <label>cheat multi-analyzer</label>
+    <description>An extremely overpowered multi-analyzer that dramatically increases research speed and connects to all research benches in a huge radius.</description>
+    <graphicData>
+      <texPath>Things/Building/Misc/MultiAnalyzer</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2,2)</drawSize>
+      <shadowData>
+        <volume>(1.8, 0.4, 1.8)</volume>
+      </shadowData>
+    </graphicData>
+    <uiIconPath>Things/Building/Misc/MultiAnalyzer</uiIconPath>
+    <size>(2,2)</size>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>0.5</fillPercent>
+    <designationCategory>Production</designationCategory>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <canOverlapZones>false</canOverlapZones>
+    <thingCategories>
+      <li>BuildingsMisc</li>
+    </thingCategories>
+    
+    <statBases>
+      <MaxHitPoints>5000</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Flammability>0</Flammability>
+      <Beauty>100</Beauty>
+      <ResearchSpeedFactor>10.0</ResearchSpeedFactor>
+      <Mass>10</Mass>
+    </statBases>
+
+    <comps>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <ResearchSpeedFactor>5.0</ResearchSpeedFactor>
+        </statOffsets>
+        <maxSimultaneous>1</maxSimultaneous>
+        <maxDistance>50</maxDistance>
+      </li>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>1</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+    </comps>
+
+    <costList>
+      <Steel>50</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+
+    <researchPrerequisites>
+      <li>MultiAnalyzer</li>
+    </researchPrerequisites>
+
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+
+    <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+  </ThingDef>
+
+</Defs>
