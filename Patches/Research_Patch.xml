@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <!-- Патч для добавления чит-анализатора в список связей ванильного Hi-Tech стола -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="HiTechResearchBench"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+    <value>
+      <li>CheatMultiAnalyzer</li>
+    </value>
+  </Operation>
+
+  <!-- Опционально: Патч для того, чтобы чит-стол считался "Высокотехнологичным" для самой игры -->
+  <!-- (Это гарантирует, что проекты требующие анализатор будут доступны на чит-столе) -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="CheatResearchBench"]</xpath>
+    <value>
+      <projectRequirementMetVars>
+        <li>MultiAnalyzer</li>
+      </projectRequirementMetVars>
+    </value>
+  </Operation>
+
+</Patch>
