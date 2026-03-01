@@ -1,5 +1,7 @@
 # Overpowered Toys
 
+[![Steam Workshop](https://img.shields.io/badge/Steam-Workshop-1b2838?logo=steam)](https://steamcommunity.com/sharedfiles/filedetails/?id=3578460018)
+
 > Previously known as ~~Cheat Beds~~
 
 **Overpowered Toys** is a cheat mod for RimWorld.
