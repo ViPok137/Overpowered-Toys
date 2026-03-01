@@ -52,17 +52,18 @@ body:
       required: false
       
   - type: checkboxes
-    id: agreement
+    id: agreement      
+    label: Before submitting a bug report, please confirm that:
+    label: -You have specified the exact version of RimWorld.
+    label: -You have specified the exact version of the Overpowered Toys mod.
+    label: -You have attached the full Player.log file (and Player-prev.log if necessary).
+    label: -You have attached ModsConfig.xml.
+    label: -You have not modified any of the provided files.
+    label: -You have described the exact steps required to reproduce the issue.
+    label: -You have verified that the problem can be reproduced consistently.
+    label: -You understand that reports without logs, a mod list, or the required information may be rejected.
     attributes:
-      label: Before submitting a bug report, please confirm that:
-      label: -You have specified the exact version of RimWorld.
-      label: -You have specified the exact version of the Overpowered Toys mod.
-      label: -You have attached the full Player.log file (and Player-prev.log if necessary).
-      label: -You have attached ModsConfig.xml.
-      label: -You have not modified any of the provided files.
-      label: -You have described the exact steps required to reproduce the issue.
-      label: -You have verified that the problem can be reproduced consistently.
-      label: -You understand that reports without logs, a mod list, or the required information may be rejected.
+
 
       options:
         - label: I agree
