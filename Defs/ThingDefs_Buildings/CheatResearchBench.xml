@@ -2,43 +2,48 @@
 <Defs>
 
   <ThingDef ParentName="BuildingBase">
-    <defName>OP_CheatResearchBench</defName>
+    <defName>CheatResearchBench</defName>
     <label>cheat research bench</label>
-    <description>Experimental ultra-fast research station for testing purposes.</description>
-
-    <thingClass>Building_ResearchBench</thingClass>
-
+    <description>A god-tier research bench. Counts as a High-Tech bench and connects to the Cheat Multi-Analyzer.</description>
     <graphicData>
       <texPath>Things/Building/Production/ResearchBenchHiTech</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
-      <drawSize>(3,2)</drawSize>
+      <drawSize>(5,3)</drawSize>
     </graphicData>
-
-    <uiIconPath>Things/Building/Production/ResearchBenchHiTech_south</uiIconPath>
-
-    <size>(2,1)</size>
-    <altitudeLayer>Building</altitudeLayer>
-
-    <!-- Можно проходить, но это не стена -->
+    <castEdgeShadows>true</castEdgeShadows>
+    <staticSunShadow>true</staticSunShadow>
+    <size>(3,2)</size>
+    <designationCategory>Production</designationCategory>
     <passability>PassThroughOnly</passability>
-
-    <!-- Рабочая клетка перед столом -->
+    <pathCost>50</pathCost>
     <hasInteractionCell>true</hasInteractionCell>
     <interactionCellOffset>(0,0,-1)</interactionCellOffset>
-
+    <surfaceType>Item</surfaceType>
+    <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
     <statBases>
-      <MaxHitPoints>800</MaxHitPoints>
-      <WorkToBuild>200</WorkToBuild>
-      <Beauty>6</Beauty>
-      <ResearchSpeedFactor>1000</ResearchSpeedFactor>
-      <Flammability>0.5</Flammability>
+      <MaxHitPoints>5000</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Flammability>0</Flammability>
+      <ResearchSpeedFactor>10.0</ResearchSpeedFactor>
     </statBases>
-
-    <!-- Бесплатно -->
-    <costList />
-
-    <designationCategory>Production</designationCategory>
-
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>1</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      <!-- ВОТ ЭТОТ БЛОК ОТВЕЧАЕТ ЗА СВЯЗЬ -->
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li>MultiAnalyzer</li> <!-- Ванильный -->
+          <li>CheatMultiAnalyzer</li> <!-- Твой новый -->
+        </linkableFacilities>
+      </li>
+    </comps>
+    <building>
+      <!-- Этот тег заставляет игру думать, что стол высокотехнологичный -->
+      <spawnedConceptLearnOpportunity>BuildingsConstruction</spawnedConceptLearnOpportunity>
+    </building>
   </ThingDef>
 
 </Defs>
